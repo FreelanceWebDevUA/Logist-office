@@ -5,8 +5,12 @@
 	<title>Cargo</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230730223929">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20230808015949">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +18,15 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="up">
 			<div class="header__color">
 				<div class="header__container">
-					<div class="header__block block-header _anim-items">
+
+					<div class="header__block block-header _anim-items _anim-no-hide">
+						<div class="block-header__dynamic"></div>
+						<div class="block-header__dynam"></div>
 						<div class="block-header__language language">
+
 							<ul>
 								<li class="language-act"><a href="#" class="language-active _icon-planet _icon-arrow">UA</a>
 									<ul class="lan-act">
@@ -28,20 +36,22 @@
 								</li>
 							</ul>
 						</div>
-						<div class="header__registration">
+						<div data-da=".registration-adept, 768.98" class="header__registration">
 							<a href="#">Реєстрація/Увійти</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="header__main main-header _anim-items">
+			<div class="header__main main-header _anim-items _anim-no-hide">
 				<div class="main-header__container">
-					<div class="main-header__logo">
+					<div data-da=".block-header__dynamic, 1200.98" class="main-header__logo">
 						<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
 					</div>
-					<div class="header__menu menu">
+					<div data-da=".block-header, 768.98" class="header__menu menu">
 						<button type="button" class="menu__icon icon-menu"><span></span></button>
+
 						<nav class="menu__body">
+							<div class="registration-adept"></div>
 							<ul class="menu__list">
 								<li class="menu__item"><a href="" class="menu__link">Головна</a></li>
 								<li class="menu__item"><a href="" class="menu__link">Перевізнику</a></li>
@@ -51,32 +61,38 @@
 							</ul>
 						</nav>
 					</div>
-					<div class="main-header__button button-main">
+					<div data-da=".menu__body, 768.98" class="main-header__button button-main">
 						<a href="#" class="button-main__link">ДЕМО
 							<div class="items-block__effects">
 								<div class="effects-flash"></div>
 							</div>
 						</a>
 					</div>
-					<div class="main-header__phone phone-main">
-						<a href="tel:+380505282053" class="phone-main__link">+38(050) 528-20-53</a>
-						<a href="tel:+380973265010" class="phone-main__link">+38 (097) 326-50-10</a>
+
+					<div data-da=".block-header__dynam, 1200.98" class="main-header__phone phone-main">
+						<div data-da=".main-header, 768.98" class="main-header__adept adept__container">
+							<a href="tel:+380505282053" class="phone-main__link">+38 (050) 528-20-53</a>
+							<a href="tel:+380973265010" class="phone-main__link">+38 (097) 326-50-10</a>
+						</div>
 					</div>
+
+
 				</div>
 			</div>
+
 		</header>
 		<main>
 			<section class="cargo-logist">
 				<div class="cargo-logist__container">
 					<div class="cargo-logist__body body-cargo">
 						<div class="body-cargo__body">
-							<div class="body-cargo__title">
+							<div class="body-cargo__title item-body-one _anim-items _anim-no-hide">
 								<h1>Logist Office - система управління автомобільними перевезеннями та тендерний майданчик для вантажовласників.</h1>
 							</div>
-							<div class="body-cargo__text">
+							<div class="body-cargo__text item-body-two _anim-items _anim-no-hide">
 								<p>Проводьте швидкі тендери між власними та перевіреними перевізниками та експедиторами Спеціальні умови для волонтерських організацій, <span>дізнатися.</span></p>
 							</div>
-							<div class="body-cargo__button">
+							<div class="body-cargo__button item-body-three _anim-items _anim-no-hide">
 								<a href="#" class="body-cargo__link button">ЗАМОВИТИ ДЕМО
 									<div class="items-block__effects">
 										<div class="effects-flash"></div>
@@ -84,7 +100,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="body-cargo__images">
+						<div class="body-cargo__images item-body-one _anim-items _anim-no-hide">
 							<picture><source srcset="img/cargo/illustration.webp" type="image/webp"><img src="img/cargo/illustration.jpg" alt="phone"></picture>
 						</div>
 					</div>
@@ -93,11 +109,11 @@
 			<section class="business">
 				<div class="business__container">
 					<div class="business__block business-block">
-						<div class="business-block__title">
+						<div class="business-block__title item-body-one _anim-items _anim-no-hide">
 							<h2>Logist Office - найкраще рішення для бізнесу, коли:</h2>
 						</div>
 						<div class="business-block__items">
-							<div class="business-block__item">
+							<div class="business-block__item item-body-one _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/1.webp" type="image/webp"><img src="img/cargo/1.png" alt="truck"></picture>
 								</div>
@@ -105,7 +121,7 @@
 									<p>Вам не вистачає перевізників</p>
 								</div>
 							</div>
-							<div class="business-block__item">
+							<div class="business-block__item item-body-two _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/2.webp" type="image/webp"><img src="img/cargo/2.png" alt="truck"></picture>
 								</div>
@@ -113,7 +129,7 @@
 									<p>Наявні перевізники піднімають ціни/p>
 								</div>
 							</div>
-							<div class="business-block__item">
+							<div class="business-block__item item-body-three _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/3.webp" type="image/webp"><img src="img/cargo/3.png" alt="truck"></picture>
 								</div>
@@ -121,7 +137,7 @@
 									<p>У вас зявився новий клієнт і збільшилась кількість відвантажень</p>
 								</div>
 							</div>
-							<div class="business-block__item">
+							<div class="business-block__item item-body-four _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/4.webp" type="image/webp"><img src="img/cargo/4.png" alt="truck"></picture>
 								</div>
@@ -130,7 +146,7 @@
 										Ви не задоволені якістю послуг ваших перевізників</p>
 								</div>
 							</div>
-							<div class="business-block__item">
+							<div class="business-block__item item-body-five _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/5.webp" type="image/webp"><img src="img/cargo/5.png" alt="truck"></picture>
 								</div>
@@ -138,7 +154,7 @@
 									<p>Наближається пік сезону</p>
 								</div>
 							</div>
-							<div class="business-block__item">
+							<div class="business-block__item item-body-six _anim-items _anim-no-hide">
 								<div class="business-block__icon">
 									<picture><source srcset="img/cargo/6.webp" type="image/webp"><img src="img/cargo/6.png" alt="truck"></picture>
 								</div>
@@ -154,11 +170,11 @@
 				<div class="why-bg">
 					<div class="why__container">
 						<div class="why__block">
-							<div class="why__title">
+							<div class="why__title item-body-one _anim-items _anim-no-hide">
 								<h2>Чому Logist Office?</h2>
 							</div>
 							<div class="why__items">
-								<div class="why__item item-why">
+								<div class="why__item item-why item-body-one _anim-items _anim-no-hide">
 									<div class="item-why__icon">
 										<picture><source srcset="img/cargo/icon/1.webp" type="image/webp"><img src="img/cargo/icon/1.png" alt="icon"></picture>
 									</div>
@@ -167,7 +183,7 @@
 										<p>Завдяки платформі LOGIST OFFICE ви не переплачуєте і завжди маєте вибір.</p>
 									</div>
 								</div>
-								<div class="why__item item-why">
+								<div class="why__item item-why item-body-two _anim-items _anim-no-hide">
 									<div class="item-why__icon">
 										<picture><source srcset="img/cargo/icon/2.webp" type="image/webp"><img src="img/cargo/icon/2.png" alt="icon"></picture>
 									</div>
@@ -176,7 +192,7 @@
 										<p>100%-ва прозорість ціноутворення та економія на перевезеннях від 10% річного бюджету щомісяця.</p>
 									</div>
 								</div>
-								<div class="why__item item-why">
+								<div class="why__item item-why item-body-three _anim-items _anim-no-hide">
 									<div class="item-why__icon">
 										<picture><source srcset="img/cargo/icon/3.webp" type="image/webp"><img src="img/cargo/icon/3.png" alt="icon"></picture>
 									</div>
@@ -193,15 +209,15 @@
 			<section class="sending">
 				<div class="sending__container">
 					<div class="sending__block">
-						<div class="sending__images">
+						<div class="sending__images item-body-one _anim-items _anim-no-hide">
 							<picture><source srcset="img/cargo/truck-on.webp" type="image/webp"><img src="img/cargo/truck-on.jpg" alt="vantaj"></picture>
 						</div>
 						<div class="sending__body">
-							<div class="sending__title">
+							<div class="sending__title item-body-one _anim-items _anim-no-hide">
 								<h2>Що по перевізниках?</h2>
 							</div>
 							<div class="sending__items">
-								<div class="sending__item item-sending">
+								<div class="sending__item item-sending item-body-two _anim-items _anim-no-hide">
 									<div class="item-sending__icon">
 										<picture><source srcset="img/sending/content.webp" type="image/webp"><img src="img/sending/content.png" alt="content"></picture>
 									</div>
@@ -210,7 +226,7 @@
 										<p>Спрощена процедура початку роботи з перевізниками – достатньо укласти договір та зареєструватися на порталі.</p>
 									</div>
 								</div>
-								<div class="sending__item item-sending">
+								<div class="sending__item item-sending item-body-three _anim-items _anim-no-hide">
 									<div class="item-sending__icon">
 										<picture><source srcset="img/sending/content.webp" type="image/webp"><img src="img/sending/content.png" alt="content"></picture>
 									</div>
@@ -219,7 +235,7 @@
 										<p>Знаходьте нових перевізників та експедиторів із мережі перевірених. Перевіряємо реєстрацію компаній або ФОП в державних реєстрах за допомогою OpenDataBot.</p>
 									</div>
 								</div>
-								<div class="sending__item item-sending">
+								<div class="sending__item item-sending item-body-four _anim-items _anim-no-hide">
 									<div class="item-sending__icon">
 										<picture><source srcset="img/sending/content.webp" type="image/webp"><img src="img/sending/content.png" alt="content"></picture>
 									</div>
@@ -236,7 +252,7 @@
 			<section class="convenient">
 				<div class="convenient__container">
 					<div class="convenient__block block-convenient">
-						<div class="block-convenient__items">
+						<div class="block-convenient__items item-body-one _anim-items _anim-no-hide">
 							<div class="block-convenient__title">
 								<h2>Чому це дійсно зручно?</h2>
 							</div>
@@ -260,7 +276,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="block-convenient__images">
+						<div class="block-convenient__images item-body-two _anim-items _anim-no-hide">
 							<picture><source srcset="img/cargo/pc.webp" type="image/webp"><img src="img/cargo/pc.jpg" alt="pc"></picture>
 						</div>
 					</div>
@@ -269,12 +285,12 @@
 			<section class="automation">
 				<div class="automation__container">
 					<div class="automation__block block-automation">
-						<div class="block-automation__title">
+						<div class="block-automation__title item-body-one _anim-items _anim-no-hide">
 							<h2>Новий рівень автоматизації вашої логістики.</h2>
 						</div>
-						<div class="block-automation__text">Всі бізнес-процеси логіста в одному вікні.</div>
+						<div class="block-automation__text item-body-two _anim-items _anim-no-hide">Всі бізнес-процеси логіста в одному вікні.</div>
 						<div class="block-automation__items automation">
-							<div class="automation__item item-automation">
+							<div class="automation__item item-automation item-body-three _anim-items _anim-no-hide">
 								<div class="item-automation__icon">
 									<picture><source srcset="img/cargo/number/01.webp" type="image/webp"><img src="img/cargo/number/01.png" alt="icon"></picture>
 								</div>
@@ -284,7 +300,7 @@
 										можливість формування замовлення та передачі всієї необхідної інформації безпосередньо у системі.</p>
 								</div>
 							</div>
-							<div class="automation__item item-automation">
+							<div class="automation__item item-automation item-body-four _anim-items _anim-no-hide">
 								<div class="item-automation__icon">
 									<picture><source srcset="img/cargo/number/02.webp" type="image/webp"><img src="img/cargo/number/02.png" alt="icon"></picture>
 								</div>
@@ -293,7 +309,7 @@
 									<p>Зробіть запит на інтеграцію LOGIST OFFICE з вашою обліковою системою та на підключення модулю моніторінгу транспорту Logisticon Yard, і ви отримаєте автоматизовану, прозору цифрову платформу для управління транспортом в одному вікні. Обмін даними між системами буде автоматичний.</p>
 								</div>
 							</div>
-							<div class="automation__item item-automation">
+							<div class="automation__item item-automation item-body-five _anim-items _anim-no-hide">
 								<div class="item-automation__icon">
 									<picture><source srcset="img/cargo/number/03.webp" type="image/webp"><img src="img/cargo/number/03.png" alt="icon"></picture>
 								</div>
@@ -302,7 +318,7 @@
 									<p>Треба запустити тендер? Запустіть новий тендер у 3 кліки. Не витрачайте часу на його налаштуваннях, відкрийте ваш шаблон, додайте потрібні зміни – все, вам залишиться отримати найвигіднішу пропозицію.</p>
 								</div>
 							</div>
-							<div class="automation__item item-automation">
+							<div class="automation__item item-automation item-body-six _anim-items _anim-no-hide">
 								<div class="item-automation__icon">
 									<picture><source srcset="img/cargo/number/04.webp" type="image/webp"><img src="img/cargo/number/04.png" alt="icon"></picture>
 								</div>
@@ -319,17 +335,17 @@
 				<div class="offer-bg">
 					<div class="offer__container">
 						<div class="offer__block offer-block">
-							<div class="offer-block__images">
+							<div class="offer-block__images item-body-one _anim-items _anim-no-hide">
 								<picture><source srcset="img/cargo/sub-phone.webp" type="image/webp"><img src="img/cargo/sub-phone.png" alt="sub-phone"></picture>
 							</div>
 							<div class="offer-block__items items-offer">
-								<div class="items-offer__title">
+								<div class="items-offer__title item-body-two _anim-items _anim-no-hide">
 									<h2>Унікальна пропозиція від Logist Office інтегрований модуль контролю траспорту Logisticon Yard.</h2>
 								</div>
-								<div class="items-offer__text">Електронний журнал для моніторингу транспорту Logisticon Yard.</div>
-								<div class="items-offer__text">Система контролю руху транспорту на території підприємства автоматично фіксує час приїзду-від'їзду транспортних засобів на територію підприємства та забеспечує комунікацію між підрозділами підприємства і водіями транспортних засобів Заощаджуйте операційні витрати та уникайте простоїв!</div>
-								<div class="items-offer__text">Заощаджуйте операційні витрати та уникайте простоїв!</div>
-								<div class="items-offer__button">
+								<div class="items-offer__text item-body-three _anim-items _anim-no-hide">Електронний журнал для моніторингу транспорту Logisticon Yard.</div>
+								<div class="items-offer__text-sub item-body-four _anim-items _anim-no-hide">Система контролю руху транспорту на території підприємства автоматично фіксує час приїзду-від'їзду транспортних засобів на територію підприємства та забеспечує комунікацію між підрозділами підприємства і водіями транспортних засобів Заощаджуйте операційні витрати та уникайте простоїв!</div>
+								<div class="items-offer__text item-body-five _anim-items _anim-no-hide">Заощаджуйте операційні витрати та уникайте простоїв!</div>
+								<div class="items-offer__button item-body-six _anim-items _anim-no-hide">
 									<a href="#" class="items-offer__link button">ЗАМОВИТИ ДЕМО
 										<div class="items-block__effects">
 											<div class="effects-flash"></div>
@@ -345,41 +361,41 @@
 				<div class="cargo-work-bg">
 					<div class="work__container">
 						<div class="work__body body-work">
-							<div class="body-work__title">
+							<div class="body-work__title item-body-one _anim-items _anim-no-hide">
 								<p>Як це працює?</p>
 							</div>
 							<div class="block-work__items">
-								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1">
+								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1 item-body-one _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/invitation.webp" type="image/webp"><img src="img/work/invitation.png" alt="invitation"></picture>
 									</div>
 									<div class="item-work__text">Отримання запрошення до участі в тендері</div>
 								</div>
-								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1">
+								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1 item-body-two _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/communications.webp" type="image/webp"><img src="img/work/communications.png" alt="invitation"></picture>
 									</div>
 									<div class="item-work__text">Розсилка запрошень</div>
 								</div>
-								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1">
+								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1 item-body-three _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/bid.webp" type="image/webp"><img src="img/work/bid.png" alt="invitation"></picture>
 									</div>
 									<div class="item-work__text">Торги</div>
 								</div>
-								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1">
+								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1 item-body-four _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/trophy.webp" type="image/webp"><img src="img/work/trophy.png" alt="invitation"></picture>
 									</div>
 									<div class="item-work__text">Підтвердження “переможця”</div>
 								</div>
-								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1">
+								<div class="block-work__item item-work cargo-work-arrow _icon-arrow-1 item-body-five _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/to-do-list.webp" type="image/webp"><img src="img/work/to-do-list.png" alt="invitation"></picture>
 									</div>
 									<div class="item-work__text">Оформлення замовлення перевізнику</div>
 								</div>
-								<div class="block-work__item item-work">
+								<div class="block-work__item item-work item-body-six _anim-items _anim-no-hide">
 									<div class="item-work__images">
 										<picture><source srcset="img/work/shipped.webp" type="image/webp"><img src="img/work/shipped.png" alt="invitation"></picture>
 									</div>
@@ -395,82 +411,84 @@
 				<div class="steps-bg">
 					<div class="steps__container">
 						<div class="steps__block block-steps">
-							<div class="block-steps__title">8 кроків успішного використання Logist Office</div>
-							<div class="block-steps__items steps-two-seting">
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 1</p>
+							<div class="block-steps__title item-body-one _anim-items _anim-no-hide">8 кроків успішного використання Logist Office</div>
+							<div class="steps-body body-steps">
+								<div class="body-steps__items">
+									<div class="body-steps__item body-steps steps-height item-body-one _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 1</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Обрати Logist Office та зареєструватися на платформі, внести всю необхідну для роботи інформацію.</p>
+										</div>
 									</div>
-									<div class="item-steps__text">
-										<p>Обрати Logist Office та зареєструватися на платформі, внести всю необхідну для роботи інформацію.</p>
+									<div class="body-steps__item body-steps steps-height item-body-two _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 2</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Замовити на сайті презентацію можливостей Logist Office. Пройти навчання з використання платформи.</p>
+										</div>
 									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 2</p>
+									<div class="body-steps__item body-steps steps-height item-body-three _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 3</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Оголосити «своїм» перевізникам, що ваша компанія буде робити замовлення транспорту виключно за результатами торгів в Logist Office і їм потрібно зареєструватися на платформі.</p>
+										</div>
 									</div>
-									<div class="item-steps__text">
-										<p>Замовити на сайті презентацію можливостей Logist Office. Пройти навчання з використання платформи.</p>
+									<div class="body-steps__item body-steps steps-height item-body-four _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 4</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Обрати час початку проведення торгів, тривалість тендеру і повідомити цю інформацію перевізникам.</p>
+										</div>
 									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 3</p>
+									<div class="body-steps__item body-steps steps-height item-body-five _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 5</p>
+										</div>
+										<div class="body-steps__text">
+											<p>З визначеної дати почати проводити тендерні торги. На початковий період бажано залучити техпідтримку платформи до контролю коректного використання платформи.</p>
+										</div>
 									</div>
-									<div class="item-steps__text">
-										<p>Оголосити «своїм» перевізникам, що ваша компанія буде робити замовлення транспорту виключно за результатами торгів в Logist Office і їм потрібно зареєструватися на платформі.</p>
+									<div class="body-steps__item body-steps steps-height item-body-six _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 6</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Долучати до торгів нових перевізників. Бажано мати не менше 20 перевізників. Рівень знижки стартової вартості рейсу напряму залежить від кількості активних перевізників, тому, чим їх буде більше – тим більше грошей в зекономите.</p>
+										</div>
 									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 4</p>
+
+									<div class="body-steps__item body-steps steps-height item-body-seven _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 7</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Не соромитися звертатися до техпідтримки Logist Office з будь-яких питань використання платформи чи пошуку перевізників.</p>
+										</div>
 									</div>
-									<div class="item-steps__text">
-										<p>Обрати час початку проведення торгів, тривалість тендеру і повідомити цю інформацію перевізникам.</p>
-									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 5</p>
-									</div>
-									<div class="item-steps__text">
-										<p>З визначеної дати почати проводити тендерні торги. На початковий період бажано залучити техпідтримку платформи до контролю коректного використання платформи.</p>
-									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 6</p>
-									</div>
-									<div class="item-steps__text">
-										<p>Долучати до торгів нових перевізників. Бажано мати не менше 20 перевізників. Рівень знижки стартової вартості рейсу напряму залежить від кількості активних перевізників, тому, чим їх буде більше – тим більше грошей в зекономите.</p>
+									<div class="body-steps__item body-steps steps-height item-body-eight _anim-items _anim-no-hide">
+										<div class="body-steps__title">
+											<p>Крок 8</p>
+										</div>
+										<div class="body-steps__text">
+											<p>Продовжувати використання платформи Logist Office та рахувати заощаджені гроші.</p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="block-steps__items steps-two-seting steps-body">
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 7</p>
-									</div>
-									<div class="item-steps__text">
-										<p>Не соромитися звертатися до техпідтримки Logist Office з будь-яких питань використання платформи чи пошуку перевізників.</p>
-									</div>
-								</div>
-								<div class="block-steps__item item-steps steps-height">
-									<div class="item-steps__title _icon-arrow-r">
-										<p>Крок 8</p>
-									</div>
-									<div class="item-steps__text">
-										<p>Продовжувати використання платформи Logist Office та рахувати заощаджені гроші.</p>
-									</div>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>
 			</section>
 			<section class="our-clients">
 				<div class="our-clients__block">
-					<div class="our-clients__title">
+					<div class="our-clients__title _anim-items _anim-no-hide">
 						<h2>Нам довіряють:</h2>
 					</div>
 					<!-- Оболонка слайдера -->
@@ -540,19 +558,22 @@
 			</section>
 		</main>
 		<footer class="footer">
+			<div data-goto="up" class="btn-up">
+				<a href="#" class="btn-up-block"><img src="img/icon/arrow.svg" alt=""></a>
+			</div>
 			<section class="demonstration">
 				<div class="demonstration-color">
 					<div class="demonstration__container">
 						<div class="demonstration__block demonstration-block">
 							<div class="demonstration-block__items">
-								<div class="demonstration-block__text _anim-items">
+								<div class="demonstration-block__text _anim-items _anim-no-hide">
 									<p>Бажаєте записатися на демонстрацію Logist Office або обговорити умови співпраці?</p>
 								</div>
-								<div class="consultation__body">
-									<div class="consultation__title _anim-items">
+								<div class="consultation__body _anim-items _anim-no-hide">
+									<div class="consultation__title">
 										<p> Заповніть форму і наш менеджер зв’яжеться з вами найближчим часом</p>
 									</div>
-									<div class="consultation__form _anim-items">
+									<div class="consultation__form">
 										<form data-dev data-popup-message="#popup-form" data-ajax action="files/sendmail/sendmail.php" method="POST">
 											<label for="consultation_name" class="consultation__text">Ім’я*:</label>
 											<input data-required data-no-focus-classes data-validate id="consultation_name" autocomplete="off" type="text" name="form[name]" data-error="" placeholder="Ваше ім’я" class="consultation__input">
@@ -577,40 +598,40 @@
 								</div>
 							</div>
 							<div class="demonstration-block__item">
-								<div class="demonstration-block__images _anim-items">
+								<div class="demonstration-block__images _anim-items _anim-no-hide">
 									<picture><source srcset="img/demonstration/illustration.webp" type="image/webp"><img src="img/demonstration/illustration.png" alt="illustration"></picture>
 								</div>
 								<div class="demonstration-block__contact contact-demonstration">
-									<div class="contact-demonstration__title _anim-items">Зв'язок з нами:</div>
+									<div class="contact-demonstration__title _anim-items _anim-no-hide">Зв'язок з нами:</div>
 									<div class="contact-demonstration__office office-demonstration">
-										<div class="office-demonstration__icon icon-one _anim-items">
+										<div class="office-demonstration__icon icon-one _anim-items _anim-no-hide">
 											<picture><source srcset="img/demonstration/adress.webp" type="image/webp"><img src="img/demonstration/adress.png" alt="mini-map"></picture>
 										</div>
-										<div class="office-demonstration__text icon-one _anim-items">
+										<div class="office-demonstration__text icon-one _anim-items _anim-no-hide">
 											<p>Головний офіс: </p>
-											<p>+38(050) 528-20-53 пн-пт 10.00-17.00</p>
+											<p><a href="tel:+380505282053">+38(050) 528-20-53</a> пн-пт 10.00-17.00</p>
 										</div>
 									</div>
 									<div class="office-demonstration__phone">
-										<div class="office-demonstration__icon icon-two _anim-items">
+										<div class="office-demonstration__icon icon-two _anim-items _anim-no-hide">
 											<picture><source srcset="img/demonstration/phone.webp" type="image/webp"><img src="img/demonstration/phone.png" alt="mini-map"></picture>
 										</div>
-										<div class="office-demonstration__text icon-two _anim-items">
+										<div class="office-demonstration__text icon-two _anim-items _anim-no-hide">
 											<p>ТОВ “Логіст Офіс”</p>
 											<p>01010, м.Київ, вул. Івана Мазепи, 11-а, оф.54</p>
 										</div>
 									</div>
 									<div class="office-demonstration__phone-help">
-										<div class="office-demonstration__icon icon-three _anim-items">
+										<div class="office-demonstration__icon icon-three _anim-items _anim-no-hide">
 											<picture><source srcset="img/demonstration/phone-hellp.webp" type="image/webp"><img src="img/demonstration/phone-hellp.png" alt="mini-map"></picture>
 										</div>
 										<div class="office-demonstration__text icon-two _anim-items">
 											<p>Тех.підтримка:</p>
-											<p>+38 (097) 326-50-10 пн-пт 9.00-18.00</p>
+											<p><a href="tel:+380973265010">+38 (097) 326-50-10</a> пн-пт 9.00-18.00</p>
 										</div>
 									</div>
 								</div>
-								<div class="contact-demonstration__social _anim-items">
+								<div class="contact-demonstration__social _anim-items _anim-no-hide">
 									<a href="#"><picture><source srcset="img/demonstration/facebook.webp" type="image/webp"><img src="img/demonstration/facebook.png" alt="facebook"></picture></a>
 								</div>
 							</div>
@@ -621,7 +642,7 @@
 			<div class="footer-bg">
 				<div class="footer__container">
 					<div class="footer__block">
-						<div class="footer-menu _anim-items">
+						<div class="footer-menu _anim-items _anim-no-hide">
 							<nav class="footer-menu__body">
 								<ul class="footer-menu__list">
 									<li class="footer-menu__item"><a href="#" class="footer-menu__link">Головна</a></li>
@@ -632,17 +653,17 @@
 								</ul>
 							</nav>
 						</div>
-						<div class="footer__phone _anim-items">
+						<div class="footer__phone _anim-items _anim-no-hide">
 							<a href="tel:+380505282053" class="phone-footer__link">+38(050) 528-20-53</a>
 							<a href="tel:+380973265010" class="phone-footer__link">+38 (097) 326-50-10</a>
 						</div>
 					</div>
 					<div class="footer__content content-footer">
-						<div class="content-footer__text _anim-items">
+						<div class="content-footer__text _anim-items _anim-no-hide">
 							<p>LOGISTOFFICE.UA 2014-2023 </p>
 							<p>Надсилання форми означає Вашу згоду на обробку вказаних у реєстраційній формі персональних даних Адміністратором Logistoffice.ua, а також його бізнес-партнерами в маркетингових цілях, зокрема, на отримання електронним шляхом комерційної інформації згідно з Угодою користувача.</p>
 						</div>
-						<div class="content-footer__certificate _anim-items">
+						<div class="content-footer__certificate _anim-items _anim-no-hide">
 							<ul>
 								<li><a href="#">| СВІДОЦТВО ПРО РЕЄСТРАЦІЮ ТОРГОВОЇ МАРКИ</a> </li>
 								<li><a href="#">| СУБЛІЦЕНЗІЙНИЙ ДОГОВІР-ОФЕРТА № ЛО/21072021</a></li>
@@ -654,17 +675,7 @@
 			</div>
 		</footer>
 	</div>
-	<div id="popup" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">Закрити</button>
-				<div class="popup__text">
-					Text
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="js/app.min.js?_v=20230730223929"></script>
+	<script src="js/app.min.js?_v=20230808015949"></script>
 </body>
 
 </html>
