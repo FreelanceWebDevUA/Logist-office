@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->IsHTML(true);
 
     $mail->setFrom($email, $name);
-    $mail->addAddress('vyacheslavs2022@gmail.com'); // Вкажіть свою поштову скриньку
+    $mail->addAddress('info@sm-logistica.com'); // Вкажіть свою поштову скриньку
 		$mail->setFrom('from@gmail.com', 'Замовлення');
 
     $mail->Subject = 'Нове замовлення';
