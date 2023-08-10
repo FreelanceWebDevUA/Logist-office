@@ -3743,10 +3743,7 @@ textarea._form-error {
   }
 
   .header__block {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    gap: 0.625rem;
+    gap: 0.3125rem;
   }
 
   .header__registration {
@@ -3755,6 +3752,11 @@ textarea._form-error {
 
   .header__main {
     margin-top: 0rem;
+  }
+
+  .header__logo img {
+    max-width: 165.032px;
+    height: auto;
   }
 
   .menu__body {
@@ -4048,13 +4050,6 @@ textarea._form-error {
 @media (max-width: 48.06125em) and (any-hover: none) {
   .icon-menu {
     cursor: default;
-  }
-}
-
-@media (max-width: 22.5em) {
-  .header__logo img {
-    max-width: 100%;
-    height: auto;
   }
 }
 
