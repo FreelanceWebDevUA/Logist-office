@@ -3743,12 +3743,7 @@ textarea._form-error {
   }
 
   .header__block {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    gap: 0.625rem;
   }
 
   .header__registration {
