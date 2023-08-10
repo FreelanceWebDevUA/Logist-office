@@ -2391,7 +2391,6 @@ textarea._form-error {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 684px;
 }
 
 .item-automation__icon img {
@@ -2403,6 +2402,7 @@ textarea._form-error {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+  max-width: 580px;
 }
 
 .item-automation__text span {
@@ -3245,6 +3245,12 @@ textarea._form-error {
     padding-right: 30px;
   }
 
+  .block-automation__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .offer-block__images img {
     max-width: 100%;
     height: auto;
@@ -3662,16 +3668,6 @@ textarea._form-error {
     max-width: 100%;
     height: auto;
   }
-
-  .item-automation__text {
-    height: auto;
-  }
-}
-
-@media (max-width: 93.75em) and (max-width: 20em) {
-  .item-automation__text {
-    max-width: 0.0000000625rem;
-  }
 }
 
 @media (max-width: 84.5em) {
@@ -3744,6 +3740,15 @@ textarea._form-error {
 @media (max-width: 48.06125em) {
   .consultation__text:not(:last-child) {
     margin-top: 1rem;
+  }
+
+  .header__block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .header__registration {
@@ -4009,14 +4014,9 @@ textarea._form-error {
   }
 
   .block-automation__items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .item-automation__text {
-    max-width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .offer__block {
@@ -5210,26 +5210,6 @@ textarea._form-error {
 @supports not (gap: clamp( 2.5rem , 1.906779661rem  +  2.9661016949vw , 4.6875rem )) {
     .block-convenient__item {
       gap: calc(2.5rem + 2.1875 * (100vw - 20rem) / 73.75);
-    }
-}
-}
-
-@media (max-width: 93.75em) and (min-width: 93.75em) {
-  .item-automation__text {
-    max-width: 32.5rem;
-  }
-}
-
-@media (max-width: 93.75em) and (min-width: 20em) and (max-width: 93.75em) {
-@supports (max-width: clamp( 0.0000000625rem , -8.8135592426rem  +  44.0677965254vw , 32.5rem )) {
-    .item-automation__text {
-      max-width: clamp( 0.0000000625rem , -8.8135592426rem  +  44.0677965254vw , 32.5rem );
-    }
-}
-
-@supports not (max-width: clamp( 0.0000000625rem , -8.8135592426rem  +  44.0677965254vw , 32.5rem )) {
-    .item-automation__text {
-      max-width: calc(0.0000000625rem + 32.4999999375 * (100vw - 20rem) / 73.75);
     }
 }
 }
