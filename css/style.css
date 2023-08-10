@@ -708,16 +708,16 @@ textarea._form-error {
       -ms-flex-align: center;
           align-items: center;
   opacity: 0;
-  -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .header__block._active {
   opacity: 1;
-  -webkit-transition: all 0.8s ease 0.4s;
-  -o-transition: all 0.8s ease 0.4s;
-  transition: all 0.8s ease 0.4s;
+  -webkit-transition: all 0.4s ease 0.2s;
+  -o-transition: all 0.4s ease 0.2s;
+  transition: all 0.4s ease 0.2s;
 }
 
 .header__registration {
@@ -995,6 +995,7 @@ textarea._form-error {
 
 .contact-demonstration__social {
   text-align: center;
+  margin-bottom: 1.875rem;
 }
 
 .office-demonstration__icon:not(:last-child) {
@@ -2180,8 +2181,12 @@ textarea._form-error {
 .item-steps__text {
   max-width: 308px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
+}
+
+.item-steps__text span {
+  font-weight: 800;
 }
 
 .retreat {
@@ -2583,8 +2588,12 @@ textarea._form-error {
 
 .body-steps__text {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
+}
+
+.body-steps__text span {
+  font-weight: 800;
 }
 
 .swiper {
@@ -3893,10 +3902,6 @@ textarea._form-error {
             justify-content: center;
   }
 
-  .contact-demonstration__social {
-    margin-bottom: 3.125rem;
-  }
-
   .footer__block {
     -webkit-box-align: normal;
         -ms-flex-align: normal;
@@ -4040,9 +4045,8 @@ textarea._form-error {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
 
   .item-automation__text {
