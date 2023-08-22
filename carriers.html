@@ -5,12 +5,8 @@
 	<title>Carriers</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<style>
-		body {
-			opacity: 0;
-		}
-	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20230814122501">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230822005623">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,18 +41,18 @@
 			<div class="header__main main-header">
 				<div class="main-header__container">
 					<div data-da=".block-header__dynamic, 1200.98" class="main-header__logo">
-						<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+						<a href="#" class="header__logo"><img data-src="img/logo.svg" alt="logo"></a>
 					</div>
 					<div data-da=".block-header, 768.98" class="header__menu menu">
 						<button type="button" class="menu__icon icon-menu"><span></span></button>
 						<nav class="menu__body">
 							<div class="registration-adept"></div>
 							<ul class="menu__list">
-								<li class="menu__item"><a href="" class="menu__link">Головна</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Перевізнику</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Вантажовласнику</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Наші клієнти</a></li>
-								<li class="menu__item"><a href="" class="menu__link">Контакти</a></li>
+								<li><a href="">Головна</a></li>
+								<li><a href="">Перевізнику</a></li>
+								<li><a href="">Вантажовласнику</a></li>
+								<li><a href="">Наші клієнти</a></li>
+								<li><a href="">Контакти</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -446,14 +442,14 @@
 										<p> Заповніть форму і наш менеджер зв’яжеться з вами найближчим часом</p>
 									</div>
 									<div class="consultation__form">
-										<form data-dev data-popup-message="#popup-form" data-ajax action="files/sendmail/sendmail.php" method="POST">
+										<form data-dev data-ajax data-popup-message="#popup-form" action="files/sendmail/sendmail.php" method="POST">
 											<label for="consultation_name" class="consultation__text">Ім’я:</label>
 											<input data-required data-no-focus-classes data-validate id="consultation_name" autocomplete="off" type="text" name="form[name]" data-error="" placeholder="Ваше ім’я" class="consultation__input">
 											<!-- <label for="consultation_last-name"class="consultation__text">Прізвище*:</label>
 									<input data-required data-no-focus-classes data-validate id="consultation_last-name" autocomplete="off" type="text" name="form[last-name]" data-error="" placeholder="Ваше прізвище" class="consultation__input"> -->
 											<label for="consultation_phone" class="consultation__text">Телефон*:</label>
-											<!-- <input data-required data-no-focus-classes data-validate id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" data-error="" placeholder="+380 (11) 111 11 11" class="consultation__input" oninput="restrictInputToDigits(this)"> -->
-											<input data-required data-no-focus-classes data-validate id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" data-error="" placeholder="Номер телефону" class="consultation__input" onkeydown="return onlyNumbers(event)">
+											<input data-required data-no-focus-classes data-validate id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" data-error="" placeholder="+380 (11) 111 11 11" class="consultation__input">
+											<!-- <input data-required data-no-focus-classes data-validate id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" data-error="" placeholder="Номер телефону" class="consultation__input" onkeydown="return onlyNumbers(event)"> -->
 
 											<label for="consultation_mail" class="consultation__text">Email:</label>
 											<input data-required data-no-focus-classes data-validate id="consultation_mail" type="text" name="form[email]" data-error="" placeholder="Ваш e-mail" class="consultation__input">
@@ -468,23 +464,23 @@
 												</button>
 											</div>
 										</form>
-										<script>
-											function onlyNumbers(event) {
-												var key = event.key;
-
-												// Перевірка для різних браузерів
-												if (event.key === undefined) {
+										<!-- <script>
+									function onlyNumbers(event) {
+											var key = event.key;
+									
+											// Перевірка для різних браузерів
+											if (event.key === undefined) {
 													key = String.fromCharCode(event.keyCode);
-												}
-
-												// Перевірка чи натиснута клавіша є цифрою (0-9) або клавішею Backspace або Delete
-												if (/^\d$/.test(key) || event.keyCode === 8 || event.keyCode === 46) {
-													return true; // Дозволяємо введення цифр та Backspace/Delete
-												} else {
-													return false; // Блокуємо введення інших символів
-												}
 											}
-										</script>
+									
+											// Перевірка чи натиснута клавіша є цифрою (0-9) або клавішею Backspace або Delete
+											if (/^\d$/.test(key) || event.keyCode === 8 || event.keyCode === 46) {
+													return true; // Дозволяємо введення цифр та Backspace/Delete
+											} else {
+													return false; // Блокуємо введення інших символів
+											}
+									}
+									</script> -->
 									</div>
 								</div>
 							</div>
@@ -498,18 +494,18 @@
 										<div class="office-demonstration__icon  item-body-three _anim-items _anim-no-hide">
 											<picture><source srcset="img/demonstration/adress.webp" type="image/webp"><img src="img/demonstration/adress.png" alt="mini-map"></picture>
 										</div>
-										<div class="office-demonstration__text  item-body-four _anim-items _anim-no-hide">
-											<p>Головний офіс: </p>
-											<p><a href="tel:+380505282053">+38(050) 528-20-53</a> пн-пт 10.00-17.00</p>
+										<div class="office-demonstration__text  item-body-six _anim-items _anim-no-hide">
+											<p>ТОВ “Логіст Офіс”</p>
+											<p>01010, м.Київ, вул. Івана Мазепи, 11-а, оф.54</p>
 										</div>
 									</div>
 									<div class="office-demonstration__phone">
 										<div class="office-demonstration__icon item-body-five _anim-items _anim-no-hide">
 											<picture><source srcset="img/demonstration/phone.webp" type="image/webp"><img src="img/demonstration/phone.png" alt="mini-map"></picture>
 										</div>
-										<div class="office-demonstration__text  item-body-six _anim-items _anim-no-hide">
-											<p>ТОВ “Логіст Офіс”</p>
-											<p>01010, м.Київ, вул. Івана Мазепи, 11-а, оф.54</p>
+										<div class="office-demonstration__text  item-body-four _anim-items _anim-no-hide">
+											<p>Головний офіс: </p>
+											<p><a href="tel:+380505282053">+38(050) 528-20-53</a> пн-пт 10.00-17.00</p>
 										</div>
 									</div>
 									<div class="office-demonstration__phone-help">
@@ -567,7 +563,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230814122501"></script>
+	<script src="js/app.min.js?_v=20230822005623"></script>
 </body>
 
 </html>
